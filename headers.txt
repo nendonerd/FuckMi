@@ -1,0 +1,80 @@
+
+
+
+test header
+
+GET /cart/order.mi.com/buy/checkout?r=12690.1526017710 HTTP/1.1
+Host: static.mi.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://static.mi.com/cart/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,ja;q=0.7,zh-TW;q=0.6
+Cookie: xmuuid=XMGUEST-9B314E50-5465-11E8-A51A-D379207A31EB; mstuid=1525965601001_3569; lastsource=account.xiaomi.com; xm_order_btauth=36875caf9b383e44cffde0fb669fcdba; xm_link_history=4GepP53q%2ByTDiXN4VfQzJMv4jixTohpBV3Dxi4aMkkM%3D; euid=IX0lhckyQMT3iUTMPW%2BA2w%3D%3D; axmuid=6WcuudC%2Buo7Q%2BFER9dcfWkVHk63gLOfFX5SB%2F1xLYSg%3D; XM_1467160200_UN=1467160200; cUserId=cWkQjks-rLTC37-cu63hKUiHfqo; userId=1467160200; mUserId=6WcuudC%2Buo7Q%2BFER9dcfWpvzDHkhTJd56SRCf3W5iRI%3D; xm_user_www_num=1; log_code=5df97b551662ffe7-5597ae8d3693f409|https%3A%2F%2Fstatic.mi.com%2Fcart%2F; pageid=5df97b551662ffe7; mstz=||843790154.157||https%253A%252F%252Fstatic.mi.com%252Fbuysuccess%252F%253Fgid%253D2171500001%257Cprotype%253Dproduct%257Cpid%253D10000045|https%25253A%25252F%25252Fstatic.mi.com%25252Fbuysuccess%25252F%25253Fgid%25253D2171500001%25257Cprotype%25253Dproduct%25257Cpid%25253D10000045; xm_vistor=1525965601001_3569_1526016214995-1526017709740
+
+
+good header
+GET / buy / checkout ? r = 79332.1526018007 HTTP / 1.1
+Host: order.mi.com
+Connection: keep - alive
+Upgrade - Insecure - Requests: 1
+User - Agent: Mozilla / 5.0(Macintosh; Intel Mac OS X 10 _12_6) AppleWebKit / 537.36(KHTML, like Gecko) Chrome / 66.0 .3359 .139 Safari / 537.36
+Accept: text / html, application / xhtml + xml, application / xml;
+q = 0.9, image / webp, image / apng, *
+/*;q=0.8
+Referer: https://static.mi.com/cart/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,ja;q=0.7,zh-TW;q=0.6
+Cookie: xmuuid=XMGUEST-9B314E50-5465-11E8-A51A-D379207A31EB; mstuid=1525965601001_3569; lastsource=account.xiaomi.com; xm_order_btauth=36875caf9b383e44cffde0fb669fcdba; xm_link_history=4GepP53q%2ByTDiXN4VfQzJMv4jixTohpBV3Dxi4aMkkM%3D; euid=IX0lhckyQMT3iUTMPW%2BA2w%3D%3D; axmuid=6WcuudC%2Buo7Q%2BFER9dcfWkVHk63gLOfFX5SB%2F1xLYSg%3D; serviceToken=ljZkojQkF11VW4%2BPps0e4OM9%2BbRdJqqJd5uv50L9JpdbbODO6852LRacXTRnz8W2jkY6sGT0nZLhTd9lQymUx54LEu%2FMMaXWPnMAPxECXCoHFzpUVYUZMSptUHcraMVpLqFMQ%2FTig50ltTDAZgGCCXEPx1nQBahcnaG3uJeMkJU%3D; XM_1467160200_UN=1467160200; xm_order_sid=b01d0794f492831f43b42450f5555dd7; cUserId=cWkQjks-rLTC37-cu63hKUiHfqo; userId=1467160200; mUserId=6WcuudC%2Buo7Q%2BFER9dcfWpvzDHkhTJd56SRCf3W5iRI%3D; xm_user_www_num=1; log_code=5df97b551662ffe7-5597ae8d3693f409|https%3A%2F%2Fstatic.mi.com%2Fcart%2F; pageid=5df97b551662ffe7; msttime=https%3A%2F%2Fstatic.mi.com%2Fcart%2F; msttime1=https%3A%2F%2Fstatic.mi.com%2Fcart%2F; mstz=||843790154.160||https%253A%252F%252Fstatic.mi.com%252Fbuysuccess%252F%253Fgid%253D2171500001%257Cprotype%253Dproduct%257Cpid%253D10000045|https%25253A%25252F%25252Fstatic.mi.com%25252Fbuysuccess%25252F%25253Fgid%25253D2171500001%25257Cprotype%25253Dproduct%25257Cpid%25253D10000045; xm_vistor=1525965601001_3569_1526016214995-1526018007403
+
+
+confirm
+GET /buy/confirm?id=5180511175810590 HTTP/1.1
+Host: order.mi.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://order.mi.com/buy/checkout?r=50999.1526018548
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,ja;q=0.7,zh-TW;q=0.6
+Cookie: xmuuid=XMGUEST-9B314E50-5465-11E8-A51A-D379207A31EB; mstuid=1525965601001_3569; lastsource=account.xiaomi.com; xm_order_btauth=36875caf9b383e44cffde0fb669fcdba; xm_link_history=4GepP53q%2ByTDiXN4VfQzJMv4jixTohpBV3Dxi4aMkkM%3D; euid=IX0lhckyQMT3iUTMPW%2BA2w%3D%3D; axmuid=6WcuudC%2Buo7Q%2BFER9dcfWkVHk63gLOfFX5SB%2F1xLYSg%3D; serviceToken=ljZkojQkF11VW4%2BPps0e4OM9%2BbRdJqqJd5uv50L9JpdbbODO6852LRacXTRnz8W2jkY6sGT0nZLhTd9lQymUx54LEu%2FMMaXWPnMAPxECXCoHFzpUVYUZMSptUHcraMVpLqFMQ%2FTig50ltTDAZgGCCXEPx1nQBahcnaG3uJeMkJU%3D; XM_1467160200_UN=1467160200; xm_order_sid=b01d0794f492831f43b42450f5555dd7; cUserId=cWkQjks-rLTC37-cu63hKUiHfqo; userId=1467160200; mUserId=6WcuudC%2Buo7Q%2BFER9dcfWpvzDHkhTJd56SRCf3W5iRI%3D; pageid=17a1f380b9d4cd2e; log_code=17a1f380b9d4cd2e-dfa1d2fa6516fad2|https%3A%2F%2Forder.mi.com%2Fbuy%2Fcheckout%3Fr%3D50999.1526018548; mstz=||843790154.176||https%253A%252F%252Fstatic.mi.com%252Fcart%252F|https%25253A%25252F%25252Fstatic.mi.com%25252Fcart%25252F; xm_vistor=1525965601001_3569_1526016214995-1526019675780; xm_user_www_num=0
+
+
+good confirm header
+
+GET /buy/confirm?id=5180511175815371 HTTP/1.1
+Host: order.mi.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3419.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://order.mi.com/buy/checkout?r=40042.1526026706
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,ja;q=0.7,zh-TW;q=0.6
+Cookie: xmuuid=XMGUEST-243E5870-54F0-11E8-8FD7-71FB6089FAEB; mstuid=1526025101686_1950; lastsource=account.xiaomi.com; xm_order_btauth=36875caf9b383e44cffde0fb669fcdba; xm_link_history=bBnQZdFq0FBu0vFDjfvy4XcUcSbuvjP8vY3F4U1pW0Y%3D; euid=IX0lhckyQMT3iUTMPW%2BA2w%3D%3D; axmuid=oO2wXgIZ9TkTjhhLUqskvJOepmpUaOR1OjU31chcrqg%3D; serviceToken=9np75fwefDaKz1t8pvAnppG2dKFtTacli%2Bn3DpHHWun1DiWp45I98a063pN%2Bn41d72DWIo%2FPqQX8OFEX0DX7uWhXWXpBrZMwONkTnpq%2FQpEtIJagYwHZL%2FPnrJ4R9%2BfyFJJbc9HRS%2FdAW%2BwcpIaUMII7yqnhfsR14PgxaKmL9WU%3D; XM_1467160200_UN=1467160200; xm_order_sid=751e19d0ace21cba6f1d732883a15a82; cUserId=cWkQjks-rLTC37-cu63hKUiHfqo; userId=1467160200; mUserId=oO2wXgIZ9TkTjhhLUqskvKB0QqTAc%2BglbY02mt8XpUk%3D; log_code=5df97b551662ffe7-5597ae8d3693f409|https%3A%2F%2Fstatic.mi.com%2Fcart%2F; pageid=17a1f380b9d4cd2e; mstz=||819977714.33||https%253A%252F%252Fstatic.mi.com%252Fcart%252F|https%25253A%25252F%25252Fitem.mi.com%25252Fproduct%25252F10000045.html; xm_vistor=1526025101686_1950_1526025101687-1526026706716; msttime=https%3A%2F%2Forder.mi.com%2Fbuy%2Fcheckout%3Fr%3D40042.1526026706; xm_user_www_num=0
+Origin: http://evil.com/
+
+
+bad confirm header
+
+POST /buy/submit?0.9132962721617317 HTTP/1.1
+Host: order.mi.com
+Connection: keep-alive
+Content-Length: 358
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://evil.com/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3419.0 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: https://item.mi.com/product/10000045.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,ja;q=0.7,zh-TW;q=0.6
+
+- content-length
++ upgrade-insecure-requests
+f Accept
+f Referer
++ Cookie
+
